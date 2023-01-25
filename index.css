@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* heading  */
+.he{
+    background: rgb(112, 112, 237);
+    text-align: center;
+}
+/* table 1 */
+.time1{
+    float: left;
+    /* display: inline; */
+    margin: 0px;
+    padding: 8px;
+}
+
+/* table 2 */
+.time2{
+    float: left;
+    /* display: inline; */
+    margin: 0px;
+    padding: 8px;
+}
+
+/* table 3 */
+.time3{
+    float: left;
+    /* display: inline; */
+    margin: 0px;
+    padding: 8px;
+}
