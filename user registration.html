@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>22Jan Pratice</title>
+  </head>
+  <body>
+    <form method="get">
+      <fieldset>
+        <legend>USER REGISTRATION DETAILS</legend>
+        <!-- USERNAME  -->
+        <label for="username">Enter your User name</label>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          placeholder="Abc$12356"
+
+        />
+        <br />
+        <!-- USEREMAIL  -->
+        <label for="useremail">Enter your email</label>
+        <input type="email" name="email" id="useremail" placeholder="abc@gmail.com" />
+        <br /> 
+        <!-- GENDER  -->
+        Select gender  
+        <label for="Male">Male</label>
+        <input type="radio" name="Select gender" id="male" />
+        <label for="female">female</label>
+        <input type="radio" name="Select gender" id="female" /> <br />
+        <!-- DOB  -->
+        <label for="DOB">Enter your DOB</label>
+        <input type="date" name="DOB" id="DOB" />
+        <br /> <hr>
+        <!-- PASSWORD  -->
+        <label for="Password">Enter your password</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Abc@143"
+          autofocus
+        />
+        <br />
+        <!-- CONTACT NO -->
+        <label for="Contact Number">Contact Number</label>
+        <input type="text" name="Contact Number" id="Contact Number" placeholder="+91 **********"/>
+        <br /> 
+        <!-- ADDRESS -->
+        <label for="Enter your address">Enter your address</label>
+        <input type="text" name="Enter your address" id="Enter your address" placeholder="Door No" />
+        <br /> 
+        <br />
+        <!-- URL Link -->
+        <label for="Enter your Github URL">Enter your Github URL</label>
+        <input
+          type="url"
+          name="Enter your Github URL"
+          id="Enter your Github URL"
+          placeholder="github/1234"
+        />
+        <br />
+       
+        <hr />
+        <!-- File import  -->
+        <label for="myfile">Select a file:</label>
+        <input type="file" id="myfile" name="myfile" required value="pdf" />
+        <hr />
+        
+        <!-- submit button -->
+        <input type="submit" value="Submit" />
+      </fieldset>
+    </form>
+  </body>
+</html>
